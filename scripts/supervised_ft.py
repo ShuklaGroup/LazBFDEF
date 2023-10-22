@@ -102,7 +102,7 @@ trainer = Trainer(
 )
 trainer.train()
 
-path = "./LazBF_ESM/checkpoint-2442"
+path = "./LazDEF_ESM/checkpoint-2442"
 LazDEF_ft = AutoModelForSequenceClassification.from_pretrained(path).to(device)
 tokenizer = AutoTokenizer.from_pretrained("facebook/esm2_t12_35M_UR50D")
 
