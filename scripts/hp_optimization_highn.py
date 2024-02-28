@@ -1,4 +1,4 @@
-# Performs hyperparamter optimization of all downstream models for the medium-N condition
+# Performs hyperparamter optimization of all downstream models for the high-N condition
 
 # Imports
 import torch
