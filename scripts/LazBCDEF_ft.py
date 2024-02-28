@@ -9,7 +9,7 @@ import random
 # Preprocesses the LazBCDEF data as described in the Data Preprocessing section
 # Creates the LazBCDEF MLM and held-out data sets
 
-LazBCDEF_neg = np.load('./content/LazBCDEF_r6_anti_merged.npy')
+LazBCDEF_neg = np.load('./LazBCDEF_r6_anti_merged.npy')
 LazBCDEF_pos = np.load('./LazBCDEF_r6_sele_merged.npy')
 
 LazBCDEF_sequences_pos = []
@@ -49,8 +49,8 @@ for i in range(len(LazBCDEF_val_pos)):
   LazBCDEF_val_pos[i] = LazBCDEF_val_pos[i].replace("'","")
   LazBCDEF_val_neg[i] = LazBCDEF_val_neg[i].replace("'","")
 
-LazBF_model = AutoModelForSequenceClassification.from_pretrained('/content/drive/MyDrive/Models/LazBF_ft_alt7/checkpoint-9766').to('cuda').eval()
-LazDEF_model = AutoModelForSequenceClassification.from_pretrained('/content/drive/MyDrive/Models/LazDEF_ft/checkpoint-9766').to('cuda').eval()
+LazBF_model = AutoModelForSequenceClassification.from_pretrained('./drive/MyDrive/Models/LazBF_ft/checkpoint-9766').to('cuda').eval()
+LazDEF_model = AutoModelForSequenceClassification.from_pretrained('./drive/MyDrive/Models/LazDEF_ft/checkpoint-9766').to('cuda').eval()
 tokenizer = AutoTokenizer.from_pretrained("facebook/esm2_t12_35M_UR50D")
 
 # Trainers
