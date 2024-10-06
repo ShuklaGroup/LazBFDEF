@@ -26,6 +26,8 @@ Descriptions of the data files that can be found [here](https://drive.google.com
 
 `LazDEF_protbert.npy`: matrix of LazDEF held-out sequence embeddings from ProtBERT
 
+The rows of the .npy matrices correspond exactly to the rows of the *_sample.csv files. For example, the first row of LazBF_mlm_none.npy is an embedding of the peptide in the first row of LazBF_sample.csv.
+
 `pretraining_peptides_4_2.fasta`: Fasta file of the peptide sequences used for pretraining Peptide-ESM
 
 We reccomend that you place the `.npy` files in `LazBFDEF/Embeddings`. We also reccomend placing `pretraining_peptides_4_2.fasta` in `LazBFDEF/Data`.
