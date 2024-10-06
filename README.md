@@ -21,13 +21,9 @@ The Jupyter notebooks are numbered based on the order in which they should be ru
 - `6_DownstreamModelTraining.ipynb`: Code used to train LazBF/DEF substrate classification models on embeddings from each of the 5 language models for the high, medium, and low-N conditions.
 - `7_tsne.ipynb`: Code for t-SNE visualization of language model embeddings.
 - `8_FineTuning.ipynb`: Code for fine-tuning 35M and 650M parameter versions of ESM-2 for LazBF/DEF/BCDEF substrate prediction.
+- `9_Interpretation_650M.ipynb`: Code for Zero-shot prediction with 650M parameter models and code to reproduce figure 7 in the main text.
+- `10_interpretation_35M.ipynb`: Code for Zero-shot prediction with 35M parameter models and code to reproduce figures 8, S3, S4.
+- `Figures.ipynb`: Code to reproduce figures 4, 6. Data were collected from `6_DownstreamModelTraining.ipynb`.
+- `PeptideESMTraining.ipynb`: Pretraining code for Peptide-ESM model described in the paper.
+- `OptionalDataPreprocessing.ipynb`: Code for data preprocessing. Optional since all sequences are provided. See `DATA.md`.
 
-9_Interpretation_650M.ipynb
-
-10_interpretation_35M.ipynb
-
-Figures.ipynb
-
-OptionalDataPreprocessing.ipynb
-
-PeptideESMTraining.ipynb
