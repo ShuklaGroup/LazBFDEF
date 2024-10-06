@@ -6,3 +6,7 @@ Code for [*Substrate Prediction for RiPP Biosynthetic Enzymes via Masked Languag
 All data needed to reproduce the results can be found [here](https://drive.google.com/drive/folders/1hDGo4JQDic0i8sRVqtTpIuD0PtE0TsXH?usp=drive_link). Descriptions of the data files can be found in `DATA.md`
 
 Trained model weights can be accessed [here](https://huggingface.co/jjoecclark).
+
+## Reproducing the work
+
+All results can be reproduced by running the `.ipynb` files contained in the `./scripts` 
