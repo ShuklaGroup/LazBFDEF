@@ -9,4 +9,4 @@ Trained model weights can be accessed [here](https://huggingface.co/jjoecclark).
 
 ## Reproducing the work
 
-All results can be reproduced by running the `.ipynb` files contained in the `./scripts` 
+All results can be reproduced by running the `.ipynb` files contained in the `./scripts`. The code can either be run on Google Colab or locally. 
