@@ -13,18 +13,14 @@ All results can be reproduced by running the `.ipynb` notebooks contained in the
 
 The Jupyter notebooks are numbered based on the order in which they should be run (i.e., start with `1_VanillaESMEmbeddings.ipynb`). Each notebook contains comments which guides the user through the code. Below is a brief description of each notebook and its purpose.
 
-- `1_VanillaESMEmbeddings.ipynb`: Contains the code used to extract LazBF/DEF sequence representations from Vanilla-ESM.
-- `2_LazBFESMEmbeddings.ipynb`: Contains the code used to train LazBF-ESM and extract LazBF/DEF sequence representations from LazBF-ESM.
-- `3_LazDEFESMEmbeddings.ipynb`: Contains the code used to train LazDEF-ESM and extract LazBF/DEF sequence representations from LazDEF-ESM.
-- `4_PeptideESMEmbeddings.ipynb`: Contains the code used to extract LazBF/DEF sequence representations from Peptide-ESM.
-
-5_LazBCDEF.ipynb
-
-6_DownstreamModelTraining.ipynb
-
-7_tsne.ipynb
-
-8_FineTuning.ipynb
+- `1_VanillaESMEmbeddings.ipynb`: Code used to extract LazBF/DEF sequence representations from Vanilla-ESM.
+- `2_LazBFESMEmbeddings.ipynb`: Code used to train LazBF-ESM and extract LazBF/DEF sequence representations from LazBF-ESM.
+- `3_LazDEFESMEmbeddings.ipynb`: Code used to train LazDEF-ESM and extract LazBF/DEF sequence representations from LazDEF-ESM.
+- `4_PeptideESMEmbeddings.ipynb`: Code used to extract LazBF/DEF sequence representations from Peptide-ESM.
+- `5_LazBCDEF.ipynb`: Code used to train LazBCDEF-ESM and extract LazBF/DEF sequence representations from LazBCDEF-ESM.
+- `6_DownstreamModelTraining.ipynb`: Code used to train LazBF/DEF substrate classification models on embeddings from each of the 5 language models for the high, medium, and low-N conditions.
+- `7_tsne.ipynb`: Code for t-SNE visualization of language model embeddings.
+- `8_FineTuning.ipynb`: Code for fine-tuning 35M and 650M parameter versions of ESM-2 for LazBF/DEF/BCDEF substrate prediction.
 
 9_Interpretation_650M.ipynb
 
