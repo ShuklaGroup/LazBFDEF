@@ -27,4 +27,6 @@ All data needed to reproduce the results can be found [here](https://drive.googl
 
 `LazDEF_mlm_LazBCDEF.npy`: matrix of LazDEF held-out sequence embeddings from LazBCDEF-ESM
 
+`pretraining_peptides_4_2.fasta`: Fasta file of the peptide sequences used for pretraining Peptide-ESM
+
 Trained model weights can be accessed [here](https://huggingface.co/jjoecclark).
