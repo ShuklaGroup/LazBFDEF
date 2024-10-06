@@ -27,3 +27,4 @@ The Jupyter notebooks are numbered based on the order in which they should be ru
 - `PeptideESMTraining.ipynb`: Pretraining code for Peptide-ESM model described in the paper.
 - `OptionalDataPreprocessing.ipynb`: Code for data preprocessing. Optional since all sequences are provided. See `DATA.md`.
 
+The code was originally run on a single A100 GPU via Google Colab.
