@@ -9,4 +9,4 @@ Trained model weights can be accessed [here](https://huggingface.co/jjoecclark).
 
 ## Reproducing the work
 
-All results can be reproduced by running the `.ipynb` files contained in the `./scripts`. The code can either be run on Google Colab or locally. 
+All results can be reproduced by running the `.ipynb` notebooks contained in the `scripts` folder. The code can either be run on Google Colab or locally. If using Google Colab, one can simply upload and the files and run the optional `pip install` cells to install the required packages as needed. If running the code locally, one can create a conda enviornment using the `env.yml` which describes the versions of all software libraries used in this work.
