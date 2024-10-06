@@ -20,4 +20,8 @@
 
 `LazDEF_mlm_LazBCDEF.npy`: matrix of LazDEF held-out sequence embeddings from LazBCDEF-ESM
 
+`LazBF_protbert.npy`: matrix of LazBF held-out sequence embeddings from ProtBERT
+
+`LazDEF_protbert.npy`: matrix of LazDEF held-out sequence embeddings from ProtBERT
+
 `pretraining_peptides_4_2.fasta`: Fasta file of the peptide sequences used for pretraining Peptide-ESM
