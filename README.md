@@ -25,6 +25,6 @@ The Jupyter notebooks are numbered based on the order in which they should be ru
 - `10_interpretation_35M.ipynb`: Code for Zero-shot prediction with 35M parameter models and code to reproduce figures 8, S3, S4.
 - `Figures.ipynb`: Code to reproduce figures 4, 6. Data were collected from `6_DownstreamModelTraining.ipynb`.
 - `PeptideESMTraining.ipynb`: Pretraining code for Peptide-ESM model described in the paper.
-- `OptionalDataPreprocessing.ipynb`: Code for data preprocessing. Optional since all sequences are provided. See `DATA.md`.
+- `OptionalDataPreprocessing.ipynb`: Code for data preprocessing. Optional since preprocessed sequences are provided. See `DATA.md`.
 
 The code was originally run on a single A100 GPU via Google Colab.
