@@ -1,5 +1,5 @@
 # LazBFDEF
-Code for [*Substrate Prediction for RiPP Biosynthetic Enzymes via Masked Language Modeling and Transfer Learning*](https://arxiv.org/abs/2402.15181).
+Code for [*Substrate Prediction for RiPP Biosynthetic Enzymes via Masked Language Modeling and Transfer Learning*](https://pubs.rsc.org/en/content/articlelanding/2024/dd/d4dd00170b).
 
 <!--Trained model weights can be accessed [here](https://drive.google.com/drive/folders/104klsza_oNzCbj3UOgczbsuUQ1VAy9K0?usp=drive_link).-->
 
@@ -28,3 +28,17 @@ The Jupyter notebooks are numbered based on the order in which they should be ru
 - `OptionalDataPreprocessing.ipynb`: Code for data preprocessing. Optional since preprocessed sequences are provided. See `DATA.md`.
 
 The code was originally run on a single A100 GPU via Google Colab.
+
+Citation:
+```
+@article{Clark2024,
+  title = {Substrate prediction for RiPP biosynthetic enzymes via masked language modeling and transfer learning},
+  ISSN = {2635-098X},
+  url = {http://dx.doi.org/10.1039/D4DD00170B},
+  DOI = {10.1039/d4dd00170b},
+  journal = {Digital Discovery},
+  publisher = {Royal Society of Chemistry (RSC)},
+  author = {Clark,  Joseph D. and Mi,  Xuenan and Mitchell,  Douglas A. and Shukla,  Diwakar},
+  year = {2024}
+}
+```
